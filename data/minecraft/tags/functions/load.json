@@ -1,0 +1,7 @@
+{
+    "values": [
+        "block:load",
+        "block:load_scores",
+        "block:load_workers"
+    ]
+}
