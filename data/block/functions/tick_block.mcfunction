@@ -1,5 +1,7 @@
-kill @e[type=item]
+# kill @e[type=item]
 execute at @e[tag=stone_block] run setblock ~ ~ ~ stone replace
+execute at @e[tag=deepslate_block] run setblock ~ ~ ~ cobbled_deepslate replace
+execute at @e[tag=block_3] run setblock ~ ~ ~ gilded_blackstone replace
 execute at @e[tag=obsidian_block] run setblock ~ ~ ~ obsidian replace
 
 # detect stone block
