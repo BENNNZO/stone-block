@@ -6,7 +6,7 @@ team remove Stone
 
 scoreboard objectives add Amount dummy [{"text": "  -  CURRENCY  -  ", "bold": true, "color": "#00FF00"}]
 scoreboard objectives setdisplay sidebar Amount
-scoreboard players set Stone Amount 0
+scoreboard players set Stone Amount 100
 scoreboard players set Obsidian Amount 0
 
 team add Stone
